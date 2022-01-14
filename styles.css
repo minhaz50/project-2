@@ -94,6 +94,20 @@ nav{
     grid-template-columns: repeat(7,1fr);
     list-style: none;
 }
+.featured-product{
+    display: flex;
+}
+.products{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.product-image img{
+    width: 300px;
+    border-radius: 5px;
+}
+
 footer{
     height: 30vh;
     text-align: center;

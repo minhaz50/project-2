@@ -31,7 +31,7 @@ nav{
     display: flex;
 }
 .nevigations li{
-    margin-right: 80px;
+    margin-right: 60px;
     list-style: none;
     
 }
@@ -52,14 +52,16 @@ nav{
 .design{
     font-size: 52px;
     font-weight: 700;
+    color: #3A3A3A;
 }
 .banner-left p{
     width: 400px;
     height: 150px;
     font-size: 16px;
     font-weight: 600px;
+    color: #3A3A3A;
 }
-.banner-left a{
+.btn{
     text-decoration: none;
     padding: 14px 20px;
     background: #E02C6D;
@@ -79,4 +81,35 @@ nav{
     margin-left: 165px;
     background:url(/images/Circle\ design.svg); 
     background-repeat: no-repeat;
+}
+.btn:hover{
+    letter-spacing: 2px;
+}
+.logos-box{
+    width: 1110px;
+    margin-left: 100px;
+}
+.logos-box ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    list-style: none;
+}
+footer{
+    height: 30vh;
+    text-align: center;
+    background: #0A0826;
+    padding-top: 3%;
+    margin-top: 3%;
+}
+.footer-part h2{
+    color: white;
+    font-size: 24px;
+}
+.footer-part p{
+    color: #D9DBE1;   
+}
+.online-link a{
+    font-size: 30px;
+    color: white;
+    margin: 15px; 
 }

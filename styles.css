@@ -94,13 +94,24 @@ nav{
     grid-template-columns: repeat(7,1fr);
     list-style: none;
 }
+.products img{
+    width: 200px;
+    height: 200px;
+}
+
+.tripod{
+    font-size: 14px;
+}
+.tripod p{
+    color: #787885;
+}
 .featured-product{
     display: flex;
 }
 .products{
     width: 600px;
     margin-left: 100px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .product-image img{

@@ -259,3 +259,78 @@ footer{
         height: 20vh;
     }
 }
+/* ---------------
+        Mobile
+        -----------------------  */
+@media (max-width:576px) {
+    nav{
+      display: flex;
+    }
+    .navigation li a{
+        margin: 10px;
+        padding: 10px;
+    }
+    .logo{
+        
+        font-size: 24px;
+        font-weight: 700;
+        color: #3A3A3A;
+    }
+    .influencer{
+        display: grid;
+        margin-left: -5px;
+        
+    }
+    .container{
+        margin: 30px;
+    }
+    .banner-left{
+        width: 500px;
+        height: 400px;
+    }
+    .banner-right{
+        margin-left: 0;
+    }
+    .logos-box ul{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        list-style: none;
+        /* margin-left: -80px; */
+        margin: 20px;
+    }
+    .collection-design{
+        text-align: start;
+        margin-left: 10px;
+    }
+    .populars{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 120px;
+    }
+    
+    .test{
+        margin-left: -60px;
+        margin-bottom: 100px;
+        margin-top: 10px;
+    }
+    .see{
+        display: flex;
+        justify-content: start;
+        text-decoration: none;    
+    }
+    .featured-product{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .products{
+        width: 100%;
+    }
+    footer{
+        height: 20vh;
+        width: 200%;
+        font-size: 10px;
+        text-align: center;
+    }
+}

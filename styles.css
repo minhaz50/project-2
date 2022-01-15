@@ -14,6 +14,9 @@ body{
     margin: 40px 30px 0 120px ;
 }
 
+/* --------------------
+        navbar style 
+        --------------------*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -49,6 +52,13 @@ nav{
     scroll-behavior: smooth;
     transition: .5s;
 }
+
+/* -------------------
+        influencer design 
+        ---------------------------- */
+.influencer { 
+    display: flex;              
+    }
 .design{
     font-size: 52px;
     font-weight: 700;
@@ -68,13 +78,7 @@ nav{
     border-radius: 41px;
     color: white;
 }
-.fa-arrow{
-    margin-left: 10px;
-}
-.influencer {
-    display: flex;
-     
-}
+
 .influencer img{
     width: 450px;
     height: 414px;
@@ -85,53 +89,82 @@ nav{
 .btn:hover{
     letter-spacing: 2px;
 }
+
+/* ------------------
+       Company logo 
+        ---------------------*/
 .logos-box{
     width: 1110px;
     margin-left: 100px;
+    margin-top: 70px;
 }
 .logos-box ul{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     list-style: none;
+    
 }
-.popular{
-    text-align: center;
-    margin-right: 300px;
-}
-.popular-products{
-
-    margin-left: 120px;
-}
+/*---------------
+     Popular Products style
+        --------------- */       
 .test{
     margin-left: 70px;
     margin-bottom: 100px;
     margin-top: 100px;
 }
-.products{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 20px;
-    grid-column-gap: 30px;
+.popular-collection{
+    margin-left: 120px;
     
 }
-.products img{
+.collection-design{
+    text-align: center;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    font-size: 28;
+}
+.populars{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.populars img{
     width: 300px;
     height: 300px;
 }
-
+.thumpline{
+    margin-top: 30px;
+}
 .tripod{
     font-size: 14px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.filled{
+    color: #FB8200;
 }
 .tripod p{
     color: #787885;
 }
+.see{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;    
+}
+.see a{
+    text-decoration: none;
+    color: #E02C6D;
+}
+
+/* -----------------
+    upcoming Products
+        ------------------- */
 .featured-product{
     display: flex;
 }
 .products{
     width: 600px;
     margin-left: 100px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .product-image img{
@@ -139,6 +172,9 @@ nav{
     border-radius: 5px;
 }
 
+/*---------
+     footer part  
+     -----------------*/
 footer{
     height: 30vh;
     text-align: center;
